@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -17,7 +19,8 @@ h1 {
 section {
     background-color: grey;
     border: 1px solid black;
-    margin: 1%;
+    margin: 2%;
+    position: relative;
 }
 
 
@@ -25,11 +28,11 @@ h2 {
     font-size: 125%;
     border: 1px solid black;
     text-align: center;
-    margin: 0;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding: 0px 25px 0px 25px;
     width: 125px;
-    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 section#chicken>h2 {
@@ -38,6 +41,7 @@ section#chicken>h2 {
 
 section#beef>h2 {
     background-color: indianred;
+
 }
 
 section#sushi>h2 {
@@ -47,7 +51,7 @@ section#sushi>h2 {
 
 p {
     float: left;
-    margin: 8px;
+    margin: 30px 8px 8px 8px;
     color: whitesmoke;
 }
 
@@ -66,14 +70,15 @@ p {
     }
 
     .col-d-3 {
-        width: 31.33%;
+        width: 29.33%;
     }
 
     .col-d-2 {
-        width: 48%;
+        width: 46%;
     }
+
     .col-d-1 {
-        width: 98%;
+        width: 96%;
     }
 }
 
@@ -86,11 +91,11 @@ p {
     }
 
     .col-t-2 {
-        width: 48%;
+        width: 46%;
     }
 
     .col-t-1 {
-        width: 98%;
+        width: 96%;
     }
 }
 
@@ -102,6 +107,6 @@ p {
     }
 
     .col-m-1 {
-        width: 98%;
+        width: 96%;
     }
 }
